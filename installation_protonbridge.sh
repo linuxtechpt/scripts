@@ -42,6 +42,8 @@ if [ $? -eq 0 ]
   else
 	  echo "3 | A instalar o pacote protonmail-bridge..."
           sudo gdebi protonmail-bridge_1.5.7-1_amd64.deb -y
+  else
+	  sudo gdebi-gtk protonmail-bridge_1.5.7-1_amd64.deb -y
 fi
 echo "4 | Verificar pacote gnupg no sistema..."
 whereis gnupg &> /dev/null
