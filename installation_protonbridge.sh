@@ -41,7 +41,7 @@ if [ $? -eq 0 ]
           echo "Instalação do pacote protonmail-bridge concluida!"
   else
 	  echo "3 | A instalar o pacote protonmail-bridge..."
-          sudo gdebi protonmail-bridge_1.5.7-1_amd64.deb -y
+          sudo gdebi protonmail-bridge_1.5.7-1_amd64.deb
 fi
 echo "4 | Verificar pacote gnupg no sistema..."
 whereis gnupg &> /dev/null
@@ -50,7 +50,7 @@ if [ $? -eq 0 ]
 	  echo "Instalação do pacote gnupg concluida!"
   else
 	  echo "4 | A instalar o pacote gnupg..."
-	  sudo apt install gnupg
+	  sudo apt install gnupg -y
 fi
 	  echo "Criar nova chave..."
 	  gpg --gen-key
