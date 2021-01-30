@@ -1,5 +1,5 @@
 #!/bin/bash
-#Data: 28-01.2021
+#Data: 30-01-2021
 # Instalação e configuração do protonbridge
 
 echo "1 | Verificar o pacote protonmail-bridge no sistema..."
