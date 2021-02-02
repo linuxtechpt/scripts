@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Data: 30-01-2021
 # Instalação e configuração do protonbridge
 
