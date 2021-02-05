@@ -59,7 +59,7 @@ fi
 # validate if is needed to install gdebi
 if command -v apt
 then
-	persist_install "gdebi-core"
+	persist_install "gdebi" "gdebi-core"
 fi
 
 if command -v apt; then
